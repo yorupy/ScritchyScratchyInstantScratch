@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <GamePath>E:\Games\steamapps\common\Scritchy Scratchy</GamePath>
+    <Authors>Yorupy</Authors>
+    <Company>Yorupy</Company>
+    <Product>Instant Scratch</Product>
+    <Version>1.0.0</Version>
+    <Description>Мгновенное стирание билетов по F7</Description>
+<Copyright>© ВашеИмя</Copyright>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MelonLoader"><HintPath>$(GamePath)\MelonLoader\net6\MelonLoader.dll</HintPath></Reference>
+    <Reference Include="0Harmony"><HintPath>$(GamePath)\MelonLoader\net6\0Harmony.dll</HintPath></Reference>
+    <Reference Include="Il2CppInterop.Runtime"><HintPath>$(GamePath)\MelonLoader\net6\Il2CppInterop.Runtime.dll</HintPath></Reference>
+    <Reference Include="Il2CppInterop.Common"><HintPath>$(GamePath)\MelonLoader\net6\Il2CppInterop.Common.dll</HintPath></Reference>
+    <Reference Include="Il2Cppmscorlib"><HintPath>$(GamePath)\MelonLoader\Il2CppAssemblies\Il2Cppmscorlib.dll</HintPath></Reference>
+    <Reference Include="Assembly-CSharp"><HintPath>$(GamePath)\MelonLoader\Il2CppAssemblies\Assembly-CSharp.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>$(GamePath)\MelonLoader\Il2CppAssemblies\UnityEngine.CoreModule.dll</HintPath></Reference>
+    <Reference Include="Unity.InputSystem"><HintPath>$(GamePath)\MelonLoader\Il2CppAssemblies\Unity.InputSystem.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>
